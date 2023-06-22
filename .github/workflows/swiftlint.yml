@@ -11,7 +11,7 @@ jobs:
   SwiftLint:
     runs-on: ubuntu-latest
     steps:
-      - name: GitHub Action for SwiftLint (Different working directory)
+      - name: GitHub Action for SwiftLint with --strict
         uses: norio-nomura/action-swiftlint@3.2.1
-        env:
-          WORKING_DIRECTORY: Source
+        with:
+          args: --strict
