@@ -12,4 +12,4 @@ jobs:
       - name: GitHub Action for SwiftLint with --strict
         uses: norio-nomura/action-swiftlint@3.2.1
         with:
-          args: --strict --config swiftlint.yml
+          args: --strict --config /.swiftlint.yml
