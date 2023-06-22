@@ -13,7 +13,7 @@ struct Constants {
     static let BASE_IMAGE_PATH = "https://image.tmdb.org/t/p/original"
 }
 
-struct abcsf_fdafds111dadsfd {
+struct abcsf_fdafds111daddsfd {
     
 }
 
